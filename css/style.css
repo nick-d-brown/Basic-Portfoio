@@ -55,6 +55,47 @@ nav {
     color: #fff;
 }
 
+.linkToPages {
+    grid-column: 4 / 5;
+    height: 195px;
+}
+
+.linkToPages ul {
+    list-style-type: none;
+    margin: 0px;    
+    padding: 0px;
+    overflow: hidden;
+
+}
+
+.linkToPages li {
+    float: left;
+    text-align: center;
+    padding: 0px 13px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.linkToPages>ul li {
+    background:#fff;
+    color: #777777;
+}
+
+
+.linkBorder {
+    background:#fff;
+    color: #777777;
+    border-right: solid 2px #777777;
+}
+
+.linkToPages>ul li:active {
+    background: #4aaaa5;
+}
+
+.linkToPages>ul li:hover {
+    background: #9a9a9a
+}
+
 .aboutMe {
     grid-column: 2 / 3 ;
     grid-row: 3 / 8;
@@ -74,15 +115,13 @@ nav {
 
 .aboutMeContent>img {
     float: left;
-    /* padding: 10px; */
     border: 1px solid #000000;  
-    margin: 5px;
+    margin: 9px;
 }
 
 .aboutMeContent>p {
-    /* float: left; */
-    /* padding: 10px; */
-    margin: 5px;
+    margin: 15px;
+    line-height: 30px;
 }
 
 
@@ -91,6 +130,37 @@ nav {
     grid-row: 3 / 4;
     background: #fff;
     padding: 10px;
+    height: 140px;
+}
+
+.asideContent li {
+    float: left;
+    text-align: center;
+    padding: 0px 5px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.asideContent>ul li {
+    background:#fff;
+    color: #777777;
+}
+
+.social_media_images {
+   width: 55px;
+   height: 55px; 
+   padding: 4px;
+}
+
+#social-media-links_heading {
+    font-size: 19px;
+    text-align: center;
+    font-weight: 700;
+    color: #4AAAA2;
+    width: 203px;
+    margin: 5px auto;
+    padding: 5px 0px 13px 0px;
+    border-bottom: 3px solid #969696;   
 }
 
 footer {
@@ -108,6 +178,8 @@ footer {
 footer>p {
     position:relative;
     top: 40px;
+    color: #9a9a9a;
+    font-size: 20px;
 }
 
 #footer_top-decoration {
@@ -121,23 +193,5 @@ footer>p {
 
 }
 
-.linkToPages {
-    grid-column: 4 / 5;
-    height: 195px;
-}
 
-.linkToPages ul {
-    list-style-type: none;
-    margin: 0px;    
-    padding: 0px;
-    overflow: hidden;
-
-}
-
-.linkToPages li {
-    float: left;
-    text-align: center;
-    padding: 14px 5px;
-    text-decoration: none;
-}
 
