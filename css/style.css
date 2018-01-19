@@ -1,3 +1,5 @@
+/* {all pages} general page style */
+
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
@@ -18,6 +20,10 @@ h1, h2, h3, h4, h5, h6 {
     
     
 }
+
+/* {all pages} end of general css style */
+
+/* {all pages} navbar style */
 
 .navBox {
     grid-column: 1 / 6;
@@ -96,6 +102,10 @@ nav {
     background: #9a9a9a
 }
 
+/* {all pages} end of navbar style */
+
+/* {index.html} about me section style */
+
 .aboutMe {
     grid-column: 2 / 3 ;
     grid-row: 3 / 8;
@@ -124,6 +134,75 @@ nav {
     line-height: 30px;
 }
 
+/* end of {index.html} about me section style */
+
+/* {contact.html} contact form style */
+
+.contact {
+    grid-column: 2 / 3 ;
+    grid-row: 3 / 8;
+    background: #fff;
+    padding: 10px;
+}
+
+#contact_heading {
+    font-size: 28px;
+    font-weight: 700;
+    color: #4AAAA2;
+    width: 525px;
+    padding-bottom: 25px;
+    border-bottom: 3px solid #969696;
+    
+}
+
+.contactContent>img {
+    float: left;
+    border: 1px solid #000000;  
+    margin: 9px;
+}
+
+.contactContent form p {
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.contact-name-textbox {
+    height: 35px;
+    width: 585px;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+.contact-email-textbox {
+    height: 35px;
+    width: 585px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.contact-message {
+    height: 250px;
+    width: 585px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.contact-message-button {
+    background: #4AAAA2;
+    color: #fff;
+    font-size: 18px;
+    margin: 5px;
+    padding: 10px;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+}
+
+/* end {contact.html} contact form style */
+
+/* {all pages} sidebar generic connect style */
 
 .asideContent {
     grid-column: 4 / 5;
@@ -163,6 +242,10 @@ nav {
     border-bottom: 3px solid #969696;   
 }
 
+/* end {all pages} sidebar generic connect style */
+
+/* {all pages} footer style */
+
 footer {
     grid-column: 1 / 6;
     grid-row: 12 / 14;
@@ -193,5 +276,6 @@ footer>p {
 
 }
 
+/* end {all pages} footer style */
 
 
